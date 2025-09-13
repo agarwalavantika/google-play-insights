@@ -52,11 +52,11 @@ Average Rating by Category
 
 ### Key Insights
 
-*Games, Family, and Tools categories dominate installs.
+* Games, Family, and Tools categories dominate installs.
 
-*Family and Lifestyle categories have a high number of apps, showing competitive saturation.
+* Family and Lifestyle categories have a high number of apps, showing competitive saturation.
 
-*Productivity and Education apps maintain above-average ratings compared to other categories.
+* Productivity and Education apps maintain above-average ratings compared to other categories.
 
 ### Tech Stack
 
