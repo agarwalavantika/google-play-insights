@@ -16,21 +16,21 @@ Ensured only valid ratings (0.0 – 5.0) are retained.
 
 ### Installs by Category (installs_by_category.sql)
 
-*Aggregated total installs per app category.
+* Aggregated total installs per app category.
 
-*Ranked categories by highest installs to identify popularity trends.
+* Ranked categories by highest installs to identify popularity trends.
 
 ### Apps per Category (apps_per_category.sql)
 
-*Counted the number of apps available in each category.
+* Counted the number of apps available in each category.
 
-*Highlighted categories with the highest concentration of apps.
+* Highlighted categories with the highest concentration of apps.
 
 ### Average Rating by Category (avg_rating_by_category.sql)
 
-*Computed the mean rating for each category.
+* Computed the mean rating for each category.
 
-*Compared performance to spot categories with consistently high or low ratings.
+* Compared performance to spot categories with consistently high or low ratings.
 
 ## Tableau Dashboard
 
@@ -60,11 +60,11 @@ Average Rating by Category
 
 ### Tech Stack
 
-*SQL (MySQL / PostgreSQL / SQLite)
+* SQL (MySQL / PostgreSQL / SQLite)
 
-*Tableau Public for dashboard creation
+* Tableau Public for dashboard creation
 
-*VS Code + GitHub for development and version control
+* VS Code + GitHub for development and version control
 
 ### About
 
