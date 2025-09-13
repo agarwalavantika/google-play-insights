@@ -4,19 +4,33 @@
 This project analyzes the Google Play Store Apps dataset using SQL and Tableau.
 The goal is to extract business insights such as installs by category, app distribution, and rating performance.
 
-### Preview
+## SQL Analysis
 
-Installs by Category
+### 1.Data Cleaning (data_cleaning.sql)
 
-(screenshot / chart here)
+Removed rows with missing ratings or installs.
 
-Apps per Category
+Standardized Installs column by removing commas/plus signs and casting to numeric.
 
-(screenshot / chart here)
+Ensured only valid ratings (0.0 – 5.0) are retained.
 
-Average Rating by Category
+### Installs by Category (installs_by_category.sql)
 
-(screenshot / chart here)
+*Aggregated total installs per app category.
+
+*Ranked categories by highest installs to identify popularity trends.
+
+### Apps per Category (apps_per_category.sql)
+
+*Counted the number of apps available in each category.
+
+*Highlighted categories with the highest concentration of apps.
+
+### Average Rating by Category (avg_rating_by_category.sql)
+
+*Computed the mean rating for each category.
+
+*Compared performance to spot categories with consistently high or low ratings.
 
 ## Tableau Dashboard
 
@@ -38,20 +52,20 @@ Average Rating by Category
 
 ### Key Insights
 
-Games, Family, and Tools categories dominate installs.
+*Games, Family, and Tools categories dominate installs.
 
-Family and Lifestyle categories have a high number of apps, showing competitive saturation.
+*Family and Lifestyle categories have a high number of apps, showing competitive saturation.
 
-Productivity and Education apps maintain above-average ratings compared to other categories.
+*Productivity and Education apps maintain above-average ratings compared to other categories.
 
 ### Tech Stack
 
-SQL (MySQL / PostgreSQL / SQLite)
+*SQL (MySQL / PostgreSQL / SQLite)
 
-Tableau Public for dashboard creation
+*Tableau Public for dashboard creation
 
-VS Code + GitHub for development and version control
+*VS Code + GitHub for development and version control
 
-About
+### About
 
 Exploratory project to analyze Google Play Store apps data and derive actionable insights for app developers, marketers, and business strategists.
