@@ -1,0 +1,6 @@
+SELECT 
+    Category,
+    COUNT(*) AS total_apps
+FROM google_play_store
+GROUP BY Category
+ORDER BY total_apps DESC;
